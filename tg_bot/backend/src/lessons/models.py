@@ -1,9 +1,5 @@
-import datetime
-
 from django.utils.timezone import now
 from django.db import models
-
-# Create your models here.
 
 
 class Lessons(models.Model):

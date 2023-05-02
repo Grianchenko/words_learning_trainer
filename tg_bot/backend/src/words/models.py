@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Words(models.Model):
     word = models.CharField(verbose_name='Word', max_length=25)
